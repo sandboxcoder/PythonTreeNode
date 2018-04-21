@@ -1,11 +1,11 @@
 import queue
 
 class TreeNode:
-    left = None
-    right = None
 
     def __init__(self, number):
         self.value = number
+        self.left = None
+        self.right = None
 
     def printInOrder(self):
         if (self.left):
