@@ -3,7 +3,7 @@ This is your basic TreeNode implementation. I enjoy working with TreeNode data s
 Below is the command you should use to execute this program:
 
 ```bash
-python main.py
+python treenode.py
 ```
 
 This script will build a tree and run the typical traversal techniques: inorder, postorder, preorder, & level order.
