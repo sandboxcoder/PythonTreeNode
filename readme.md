@@ -13,6 +13,7 @@ Look at the following image of the tree we are building:
 ![alt text](level_order_traversal.png "Tree Node Graph")
 
 The Output from the Program is expected to be the following:
+
 Depth First Traversals:
 
 (a) Inorder (Left, Root, Right) : 4 2 5 1 3
