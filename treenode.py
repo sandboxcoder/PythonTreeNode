@@ -39,18 +39,20 @@ class TreeNode:
             if (node.right):
                 q.put(node.right)   
 
-node = TreeNode(1)
-node.left = TreeNode(2)
-node.right = TreeNode(3)
-node.left.left = TreeNode(4)
-node.left.right = TreeNode(5)
+if __name__ == "__main__":
+    node = TreeNode(1)
+    node.left = TreeNode(2)
+    node.right = TreeNode(3)
+    node.left.left = TreeNode(4)
+    node.left.right = TreeNode(5)
 
-print ("Print Tree InOrder")
-node.printInOrder()
-print ("Print Tree PreOrder")
-node.printPreOrder()
-print ("Print Tree PostOrder")
-node.printPostOrder()
+    print ("Print Tree InOrder")
+    node.printInOrder()
+    print ("Print Tree PreOrder")
+    node.printPreOrder()
+    print ("Print Tree PostOrder")
+    node.printPostOrder()
 
-print ("Print Tree Level Order")
-node.printLevelOrder()
+    print ("Print Tree Level Order")
+    node.printLevelOrder()
+    
