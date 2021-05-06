@@ -8,10 +8,6 @@ python treenode.py
 
 This script will build a tree and run the typical traversal techniques: inorder, postorder, preorder, & level order.
 
-Look at the following image of the tree we are building:
-
-![alt text](level_order_traversal.png "Tree Node Graph")
-
 The Output from the Program is expected to be the following:
 
 Depth First Traversals:
