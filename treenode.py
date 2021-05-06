@@ -40,11 +40,11 @@ class TreeNode:
                 q.put(node.right)   
 
 if __name__ == "__main__":
-    node = TreeNode(1)
-    node.left = TreeNode(2)
-    node.right = TreeNode(3)
+    node = TreeNode(8)
+    node.left = TreeNode(5)
+    node.right = TreeNode(10)
     node.left.left = TreeNode(4)
-    node.left.right = TreeNode(5)
+    node.left.right = TreeNode(6)
 
     print ("Print Tree InOrder")
     node.printInOrder()
