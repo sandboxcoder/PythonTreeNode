@@ -1,4 +1,4 @@
-This is your basic TreeNode implementation. I enjoy working with TreeNode data structures so figured it would be a good idea to put up a quick example. Below is an example photo of "Level order traversal":
+This is your basic TreeNode implementation. I enjoy working with TreeNode data structures so figured it would be a good idea to put up a quick example. Below is a visualization of a  binary tree:
 
 ![Level Order Traversal example](level_order_traversal.png "Binary Tree")
 
